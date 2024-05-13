@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Rangga Dhiya Febrian</title>
+        <script src="css/main.js"></script>
+    </head>
+     <body>
+
+        <input type="text" name="nama" id="nama_user">
+        <script>
+            
+            //DOM
+            /*
+            $(document).ready( function() {
+
+            } 
+            );
+            */
+
+            //variabel
+            var angka1=10;
+            let angka2='10'; //angka global
+            const PI =3.14;
+            console.log(PI);
+    
+            //Function
+            function f_tambah(a,b){
+                let hasil =a =b;
+                return hasil;
+            }
+            
+            //objek
+            let es_jeruk = {
+                es : "batu",
+                air : "kran",
+                jeruk : "Jeruk Bali"
+            }
+    
+            console.log(es_jeruk.jeruk)  //cara 1
+            es_jeruk['air' ] = 'galon'   //cara 2
+    
+            let user = prompt("Masukkan Nama Anda: ")
+            
+            let input= document.getElementById("nama_user")
+            input.value = user;
+            
+            function s (){
+                let b ; //lokal, hanya dapat diakses difunc
+            }   
+
+            </script>
+</body>
+</html>
